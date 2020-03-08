@@ -62,6 +62,7 @@ button:hover, button:focus {
 
 .logo {
   width: 100px;
+  flex: 0 1 100px;
 }
 
 .profile__portrait {
