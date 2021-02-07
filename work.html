@@ -1,217 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="shortcut icon" href="img/zcfavicon.png" />
-    <title>My Projects</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    />
-    <link rel="stylesheet" type="text/css" href="css/style.production.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-  </head>
 
-  <body>
-    <header class="page-header">
-      <!-- Add my logo here -->
-      <img
-        src="img/zclogo.jpg"
-        class="logo"
-        alt="Zach's Logo, an image of Corona Arch"
-      />
-      <nav class="main-navigation page-header__item">
-        <ul role="menubar" class="navigation-list">
-          <li role="presentation">
-            <a
-              href="index.html"
-              role="menuitem"
-              class="navigation-list__item navigation-list__item--active"
-              >Home</a
-            >
-          </li>
-          <li role="presentation">
-            <a href="about.html" role="menuitem" class="navigation-list__item"
-              >About Me</a
-            >
-          </li>
-          <li role="presentation">
-            <a href="work.html" role="menuitem" class="navigation-list__item"
-              >My Projects</a
-            >
-          </li>
-          <li role="presentation">
-            <a href="contact.html" role="menuitem" class="navigation-list__item"
-              >Contact</a
-            >
-          </li>
+<head>
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" href="img/zcfavicon.png" />
+  <title>My Projects</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.production.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+  <header class="page-header">
+    <!-- Add my logo here -->
+    <img src="img/zclogo.jpg" class="logo" alt="Zach's Logo, an image of Corona Arch" />
+    <nav class="main-navigation page-header__item">
+      <ul role="menubar" class="navigation-list">
+        <li role="presentation">
+          <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
+        </li>
+        <li role="presentation">
+          <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
+        </li>
+        <li role="presentation">
+          <a href="work.html" role="menuitem" class="navigation-list__item">My Projects</a>
+        </li>
+        <li role="presentation">
+          <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Main Content -->
+  <section>
+    <h1>My Projects</h1>
+    <div class="grid">
+      <div class="grid__item">
+        <h2>JavaScript Web App</h2>
+        <p>This web app loads data from an external API (Pok&eacute; Api). Users can view a list of data and access more
+          details on demand. </p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>jQuery</li>
+          <li>Bootstrap</li>
         </ul>
-      </nav>
-    </header>
-    <!-- Main Content -->
-    <section>
-      <h1>My Projects</h1>
-      <div class="grid">
-        <div class="grid__item">
-          <h2>Mobile Web App</h2>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>jQuery</li>
-            <li>Bootstrap</li>
-          </ul>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/zutes/zach-simple-jquery-app"
-            >See project</a
-          >
-        </div>
-        <div class="grid__item">
-          <h2>MyFlix App</h2>
-          <ul>
-            <li>Front End UI</li>
-            <li>Back End Serverside</li>
-            <li>MongoDB - MongoDB Atlas</li>
-            <li>React</li>
-            <li>Redux</li>
-            <li>Bootstrap</li>
-            <li>Authentication & Authorization</li>
-          </ul>
-          <div>
-            <img
-              src="img/movie.jpg"
-              class="to-do"
-              width="250"
-              height="250"
-              alt="MyFlix Movie App screenshot"
-            />
-          </div>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://shielded-oasis-17182.herokuapp.com/client/"
-            >See project</a
-          ><br />
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/zutes/movie_api"
-            >See code</a
-          >
-        </div>
-        <div class="grid__item">
-          <h2>Vue To-Do List</h2>
-          <ul>
-            <li>Vue</li>
-            <li>Vue Material</li>
-          </ul>
-          <div>
-            <img
-              src="img/todo.jpg"
-              class="to-do"
-              width="250"
-              height="250"
-              alt="Vue To-Do App screenshot"
-            />
-          </div>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://zutes.github.io/to-do-app/"
-            >See project</a
-          ><br />
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/zutes/to-do-app"
-            >See code</a
-          >
-        </div>
-        <div class="grid__item">
-          <h2>Angular Quiz</h2>
-          <ul>
-            <li>Angular</li>
-            <li>Bootstrap</li>
-          </ul>
-          <div>
-            <img
-              src="img/quiz.jpg"
-              class="to-do"
-              width="250"
-              height="250"
-              alt="Vue To-Do App screenshot"
-            />
-          </div>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://zutes.github.io/my-awesome-quiz-app/welcome"
-            >See project</a
-          >
-          <br />
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/zutes/my-awesome-quiz-app"
-            >See code</a
-          >
-        </div>
-        <div class="grid__item">
-          <h2>Z's Meet App</h2>
-          <ul>
-            <li>PWA</li>
-            <li>Serverless</li>
-            <li>React</li>
-            <li>TDD</li>
-            <li>Data Visulization-Recharts</li>
-          </ul>
-          <div>
-            <img
-              src="img/meetapp.jpg"
-              class="to-do"
-              width="250"
-              height="250"
-              alt="Z's Meet App screenshot"
-            />
-          </div>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://zutes.github.io/meet2/"
-            >See project</a
-          ><br />
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/zutes/meet2"
-            >See code</a
-          >
-        </div>
-        <div class="grid__item">
-          <h2>Project 6</h2>
-          <p>TBD</p>
-          <a target="_blank" rel="noopener noreferrer" href="#"
-            >See project on GitHub</a
-          >
-        </div>
+        <div><img src="img/jspoke.png" class="to-do" width="250" height="250" alt="JS PokeAPI screenshot" /></div>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/zutes/zach-simple-jquery-app">View Code on GitHub</a>
       </div>
-    </section>
-    <!-- Footer with links to social media profiles -->
-    <footer class="page-footer">
-      <p>Find me on</p>
-      <div class="social-media">
-        <img src="img/github_icon.svg" alt="github icon" />
-        <img src="img/twitter_icon.svg" alt="twitter icon" />
-        <img src="img/linkedin_icon.svg" alt="linkedin icon" />
+      <div class="grid__item">
+        <h2>MyFlix App</h2>
+        <p>This web application lets users access information about movies including the director and genre.
+          Users can also create, update, and delete an account; as well as create a list of favorite movies.
+        </p>
+        <ul>
+          <li>Front End UI</li>
+          <li>Back End Serverside</li>
+          <li>MongoDB - MongoDB Atlas</li>
+          <li>React</li>
+          <li>Redux</li>
+          <li>Bootstrap</li>
+          <li>Authentication & Authorization</li>
+        </ul>
+        <div>
+          <img src="img/myFlix.png" class="to-do" width="250" height="250" alt="MyFlix Movie App screenshot" />
+        </div>
+        <a target="_blank" rel="noopener noreferrer" href="https://shielded-oasis-17182.herokuapp.com/client/">View Project</a><br />
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/zutes/movie_api">View Code on GitHub</a>
       </div>
-    </footer>
-    <script src="js/tota11y.min.js"></script>
-  </body>
+      <div class="grid__item">
+        <h2>Vue To-Do List</h2>
+        <p>This app is a to-do list built using Vue. This project was an introduction into the Vue framework. </p>
+        <ul>
+          <li>Vue</li>
+          <li>Vue Material</li>
+        </ul>
+        <div>
+          <img src="img/VueToDo.png" class="to-do" width="250" height="250" alt="Vue To-Do App screenshot" />
+        </div>
+        <a target="_blank" rel="noopener noreferrer" href="https://zutes.github.io/to-do-app/">View Project</a><br />
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/zutes/to-do-app">View Code on GitHub</a>
+      </div>
+      <div class="grid__item">
+        <h2>Angular Quiz</h2>
+        <p>This is a quiz app built using Angular and TypeScript. This project was an introduction into the Angular
+          framework.</p>
+        <ul>
+          <li>Angular</li>
+          <li>Bootstrap</li>
+        </ul>
+        <div>
+          <img src="img/AngularQuiz.png" class="to-do" width="250" height="250" alt="Angular Quiz App screenshot" />
+        </div>
+        <a target="_blank" rel="noopener noreferrer" href="https://zutes.github.io/my-awesome-quiz-app/welcome">View Project</a>
+        <br />
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/zutes/my-awesome-quiz-app">View Code on GitHub</a>
+      </div>
+      <div class="grid__item">
+        <h2>Z's Meet App</h2>
+        <p>This severless, progressive web app lets users search for upcoming events in a selected city. Users can
+          filter, show/hide, and specify
+          the number of events shown. This app includes data visualization and can also be used offine.
+        </p>
+        <ul>
+          <li>PWA</li>
+          <li>Serverless</li>
+          <li>React</li>
+          <li>TDD</li>
+          <li>Data Visulization-Recharts</li>
+        </ul>
+        <div>
+          <img src="img/meetapp.jpg" class="to-do" width="250" height="250" alt="Z's Meet App screenshot" />
+        </div>
+        <a target="_blank" rel="noopener noreferrer" href="https://zutes.github.io/meet2/">View Project</a><br />
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/zutes/meet2">View Code on GitHub</a>
+      </div>
+      <div class="grid__item">
+        <h2>Native Mobile Chat App</h2>
+        <p>This native chat app is construted for mobile devices. Users can chat, take photos, share photos and share
+          their location.
+          The app also includes online and offline capabilities.</p>
+        <ul>
+          <li>React Native</li>
+          <li>Expo.io</li>
+          <li>Google Firestore Authentication and Database</li>
+          <li>Gifted Chat</li>
+        </ul>
+        <div>
+          <img src="img/chatApp.png" class="to-do" width="125" height="250" alt="Chat App screenshot" />
+        </div>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/zutes/yaketyyak-app">View Code on GitHub</a>
+      </div>
+    </div>
+  </section>
+  <!-- Footer with links to social media profiles -->
+  <footer class="page-footer">
+    <p>Find me on</p>
+    <div class="social-media">
+      <img src="img/github_icon.svg" alt="github icon" />
+      <img src="img/twitter_icon.svg" alt="twitter icon" />
+      <img src="img/linkedin_icon.svg" alt="linkedin icon" />
+    </div>
+  </footer>
+  <script src="js/tota11y.min.js"></script>
+</body>
+
 </html>
