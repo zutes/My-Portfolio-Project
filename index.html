@@ -13,15 +13,14 @@
       type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
-    <link rel="stylesheet" type="text/css" href="css/style.production.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
 
   <body>
     <header class="page-header">
-      <!-- Add my updated logo here -->
       <img
-        src="img/zclogo.jpg"
+        src="img/zclogo2.jpg"
         class="logo"
         alt="Zach's Logo, an image of Corona Arch"
       />
@@ -36,17 +35,12 @@
             >
           </li>
           <li role="presentation">
-            <a href="about.html" role="menuitem" class="navigation-list__item"
-              >About Me</a
-            >
-          </li>
-          <li role="presentation">
-            <a href="work.html" role="menuitem" class="navigation-list__item"
+            <a href="#myprojects" role="menuitem" class="navigation-list__item"
               >My Projects</a
             >
           </li>
           <li role="presentation">
-            <a href="contact.html" role="menuitem" class="navigation-list__item"
+            <a href="#contact" role="menuitem" class="navigation-list__item"
               >Contact</a
             >
           </li>
@@ -55,25 +49,257 @@
     </header>
     <div class="profile">
       <!-- Add an updated profile photo here -->
-      <img src="img/jack.jpg" class="profile__portrait" alt="Photo of Zach" />
-      <h1>Hi,</h1>
+      <img src="img/zc.png" class="profile__portrait" alt="Photo of Zach" />
+      <h1>Hi There!</h1>
       <p>
-        My name is Zachary Cononelos. I am a web developer focusing on the MERN
-        (MongoDB, Express, React, Node) stack. My experience also includes
-        writing/editing and working with databases.
+        My name is Zach. I'm a web developer focusing on the MERN (MongoDB,
+        Express, React, Node) stack. I have degrees in Computer Science and
+        Journalism. My certifications include Full-Stack Web Development,
+        Database Fundamentals and Proposal Writing.
       </p>
     </div>
+    <section>
+      <h2 id="myprojects">My Projects</h2>
+      <div class="grid">
+        <div class="grid__item">
+          <h3>JavaScript Web App</h3>
+          <p>
+            This web app loads data from an external API (Pok&eacute; Api).
+            Users can view a list of data and access more details on demand.
+          </p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>Bootstrap</li>
+          </ul>
+          <div>
+            <img
+              src="img/jspoke.png"
+              class="to-do"
+              width="250"
+              height="250"
+              alt="JS PokeAPI screenshot"
+            />
+          </div>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/zutes/zach-simple-jquery-app"
+            >View Code on GitHub</a
+          >
+        </div>
+        <div class="grid__item">
+          <h3>MyFlix App</h3>
+          <p>
+            This web application lets users access information about movies
+            including the director and genre. Users can also create, update, and
+            delete an account; as well as create a list of favorite movies.
+          </p>
+          <ul>
+            <li>Front End UI</li>
+            <li>Back End Serverside</li>
+            <li>MongoDB - MongoDB Atlas</li>
+            <li>Express</li>
+            <li>React</li>
+            <li>Node</li>
+            <li>Redux</li>
+            <li>Bootstrap</li>
+            <li>Authentication & Authorization</li>
+          </ul>
+          <div>
+            <img
+              src="img/myFlix.png"
+              class="to-do"
+              width="250"
+              height="250"
+              alt="MyFlix Movie App screenshot"
+            />
+          </div>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://shielded-oasis-17182.herokuapp.com/client/"
+            >View Project</a
+          ><br />
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/zutes/movie_api"
+            >View Code on GitHub</a
+          >
+        </div>
+        <div class="grid__item">
+          <h3>Vue To-Do List</h3>
+          <p>
+            This app is a to-do list built using Vue. This project was an
+            introduction into the Vue framework.
+          </p>
+          <ul>
+            <li>Vue</li>
+            <li>Vue Material</li>
+          </ul>
+          <div>
+            <img
+              src="img/VueToDo.png"
+              class="to-do"
+              width="250"
+              height="250"
+              alt="Vue To-Do App screenshot"
+            />
+          </div>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://zutes.github.io/to-do-app/"
+            >View Project</a
+          ><br />
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/zutes/to-do-app"
+            >View Code on GitHub</a
+          >
+        </div>
+        <div class="grid__item">
+          <h3>Angular Quiz</h3>
+          <p>
+            This is a quiz app built using Angular and TypeScript. This project
+            was an introduction into the Angular framework.
+          </p>
+          <ul>
+            <li>Angular</li>
+            <li>Bootstrap</li>
+          </ul>
+          <div>
+            <img
+              src="img/AngularQuiz.png"
+              class="to-do"
+              width="250"
+              height="250"
+              alt="Angular Quiz App screenshot"
+            />
+          </div>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://zutes.github.io/my-awesome-quiz-app/welcome"
+            >View Project</a
+          >
+          <br />
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/zutes/my-awesome-quiz-app"
+            >View Code on GitHub</a
+          >
+        </div>
+        <div class="grid__item">
+          <h3>Z's Meet App</h3>
+          <p>
+            This severless, progressive web app lets users search for upcoming
+            events in a selected city. Users can filter, show/hide, and specify
+            the number of events shown. This app includes data visualization and
+            can also be used offine.
+          </p>
+          <ul>
+            <li>PWA</li>
+            <li>Serverless</li>
+            <li>React</li>
+            <li>TDD</li>
+            <li>Data Visulization-Recharts</li>
+          </ul>
+          <div>
+            <img
+              src="img/meetapp.jpg"
+              class="to-do"
+              width="250"
+              height="250"
+              alt="Z's Meet App screenshot"
+            />
+          </div>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://zutes.github.io/meet2/"
+            >View Project</a
+          ><br />
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/zutes/meet2"
+            >View Code on GitHub</a
+          >
+        </div>
+        <div class="grid__item">
+          <h3>Native Mobile Chat App</h3>
+          <p>
+            This native chat app is construted for mobile devices. Users can
+            chat, take photos, share photos and share their location. The app
+            also includes online and offline capabilities.
+          </p>
+          <ul>
+            <li>React Native</li>
+            <li>Expo.io</li>
+            <li>Google Firestore Authentication and Database</li>
+            <li>Gifted Chat</li>
+          </ul>
+          <div>
+            <img
+              src="img/chatApp.png"
+              class="to-do"
+              width="125"
+              height="250"
+              alt="Chat App screenshot"
+            />
+          </div>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/zutes/yaketyyak-app"
+            >View Code on GitHub</a
+          >
+        </div>
+      </div>
+    </section>
+    <div id="contact" class="contact">
+      <h3>Let's Connect</h3>
+      <p>
+        Contact me by <a href="mailto:zutes3479@gmail.com">email</a>
+        <br />
+        Check me out on
+        <a href="https://medium.com/@zutes3479" target="blank">Medium</a> and
+        <a href="https://twitter.com/zcwebdev" target="blank">Twitter</a>
+        <br />
+      </p>
+      <div>
+        <br /><br />
+        <div>
+          <img src="img/arch.svg" class="contact" alt="sandstone arch" />
+        </div>
+        <br />
+        <a href="https://www.freepik.com/free-photos-vectors/cloud"
+          >Cloud vector created by upklyak - www.freepik.com</a
+        >
+      </div>
+    </div>
+    <br />
     <footer class="page-footer">
       <p>Find me on</p>
       <div class="social-media">
         <a href="https://github.com/zutes" class="profile-media" target="blank">
           <img src="img/github_icon.svg" alt="github icon"
         /></a>
-        <a href="https://twitter.com/" class="profile-media" target="blank">
+        <a
+          href="https://twitter.com/zcwebdev"
+          class="profile-media"
+          target="blank"
+        >
           <img src="img/twitter_icon.svg" alt="twitter icon"
         /></a>
         <a
-          href="https://www.linkedin.com/"
+          href="https://www.linkedin.com/in/zachary-cononelos-24458914a/"
           class="profile-media"
           target="blank"
         >
@@ -81,6 +307,5 @@
         /></a>
       </div>
     </footer>
-    <script src="js/tota11y.min.js"></script>
   </body>
 </html>
